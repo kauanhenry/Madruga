@@ -250,3 +250,124 @@ nav a:hover { color: #7000ff; }
     margin: 0 auto;
     line-height: 1.8;
 }
+
+.secao-conteudo {
+    padding: 90px 8%;
+    text-align: center;
+    background-color: #07070a;
+    color: #fff;
+}
+
+.fundo-alternativo {
+    background-color: #0b0b0f;
+    border-top: 1px solid rgba(112, 0, 255, 0.1);
+    border-bottom: 1px solid rgba(112, 0, 255, 0.1);
+}
+
+.secao-conteudo h2 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtitulo {
+    color: #a0a0a5;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.container-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-download {
+    background: rgba(18, 18, 23, 0.6);
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+    border-color: #a855f7;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+    transform: translateY(-4px);
+    background: rgba(168, 85, 247, 0.1);
+}
+
+
+.cronograma-box {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(18, 18, 23, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 35px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.cronograma-box h3 {
+    color: #a855f7;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+.lista-cronograma {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-cronograma li {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #d1d1d6;
+    border-left: 3px solid #7000ff;
+    padding-left: 15px;
+}
+
+.tabela-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.tabela-horarios {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(18, 18, 23, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(112, 0, 255, 0.15);
+}
+
+.tabela-horarios th {
+    background-color: #121217;
+    color: #a855f7;
+    padding: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(112, 0, 255, 0.3);
+}
+
+.tabela-horarios td {
+    padding: 16px;
+    color: #e5e5ea;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 1rem;
+}
+
+.tabela-horarios tr:hover {
+    background-color: rgba(168, 85, 247, 0.05);
+}
