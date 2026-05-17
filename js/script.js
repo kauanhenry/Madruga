@@ -8,5 +8,5 @@ const sr = ScrollReveal({
 
 sr.reveal('.hero-content');
 sr.reveal('.secao-info', { delay: 300 });
-sr.reveal('.card', { interval: 200 }); // Faz um card aparecer depois do outro!
+sr.reveal('.card', { interval: 200 });
 sr.reveal('.secao-contato', { delay: 400 });
