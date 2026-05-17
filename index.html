@@ -3,50 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basilio TATTO</title>
-    <style>
-
-        body {
-            background-color: #f4f4f9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 50px;
-            color: #333;
-        }
-        .bloco {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        h1 { color: #0076ff; }
-        button {
-            background-color: #0076ff;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        button:hover { background-color: #0056b3; }
-    </style>
+    <title>SITE Madruga</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="bloco">
-    <h1>Vixe, tá vivo! 🚀</h1>
-    <p>Se você tá lendo isso aqui, quer dizer que seu primeiro site funcionou direto do seu computador.</p>
-    <button onclick="avisar()">Clique aqui, vá!</button>
-</div>
+<header>
+    <div class="logo">Métodos<span>Madruga</span></div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">O que fazemos</a>
+        <a href="#contato" class="btn-nav">Contato</a>
+    </nav>
+</header>
 
-<script>
-    function avisar() {
-        alert("Eita, o botão funcionou direitinho! Tu já tá virando programador.");
-    }
-</script>
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        <h1>Aqui você é capaz de ter uma <br><span class="destaque">ALTA PERFORMANCE!</span></h1>
+        <p>Criando soluções modernas, rápidas e que funcionam! Nossos métodos são para todos aqueles que almejam um sucesso acadêmico. </p>
+        <a href="#contato" class="btn-principal">Começar Agora</a>
+    </div>
+</section>
 
+
+<section id="contato" class="secao-contato">
+    <h2>Fale conosco!</h2>
+    <p>Gostou do projeto? Entre em contato agora mesmo e vem ser um Madruga!</p>
+
+    <a href="https://www.instagram.com/llmadruga/" target="_blank" class="btn-instagram">
+        Instagram
+    </a>
+</section>
+
+<script src="js/script.js"></script>
 </body>
 </html>
+
+<section id="sobre" class="secao-info">
+    <h2>Quem Somos?</h2>
+    <p>O projeto Madruga é um conselheiro aos estudos, onde vai lhe auxiliar a escolher o melhor caminho para o seu desenvolvimento acadêmico, com métodos de estudos em alta performance!  </p>
+</section>
