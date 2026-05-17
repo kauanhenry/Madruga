@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -183,4 +184,25 @@ nav a:hover { color: #7000ff; }
     .hero {
         background: radial-gradient(circle at 50% 30%, #1a003c 0%, #0b0b0f 70%);
     }
+}
+
+.secao-info {
+    padding: 90px 8%;
+    background: #121217;
+    border-top: 1px solid #1f1f27;
+    border-bottom: 1px solid #1f1f27;
+    text-align: center;
+}
+.secao-info h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.secao-info p {
+    font-size: 1.2rem;
+    color: #a0a0a5;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.8;
 }
